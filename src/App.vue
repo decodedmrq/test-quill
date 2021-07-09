@@ -1,18 +1,18 @@
 <template>
   <div id="app">
     <div class="container">
-      <Editor/>
+      <Demo/>
     </div>
   </div>
 </template>
 
 <script>
-import Editor from './components/Editor.vue'
+import Demo from './components/Demo.vue'
 
 export default {
   name: 'App',
   components: {
-    Editor
+    Demo
   }
 }
 </script>
